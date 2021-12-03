@@ -597,7 +597,11 @@ line-height: 32px;
         justify-content: center;
     }
 }  
-
+@media(max-width: 460px){
+    .card__price{
+        display: none;
+    }
+}
 @media(max-width:377px){
     .header__buttons{
         margin-top: 20px;
@@ -605,7 +609,5 @@ line-height: 32px;
     .block__header{
         justify-content: center;
     }
-    .card__price{
-        display: none;
-    }
+    
 }
