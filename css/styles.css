@@ -306,7 +306,7 @@ padding: 4px 8px;
  
 }
 .card__title{
-    width: 337px;
+    max-width: 337px;
     height: 32px;
 }
 
@@ -487,6 +487,9 @@ line-height: 32px;
         max-width: 230px;
         margin-bottom: 10px;
     }
+    .section__restourants{
+        padding-bottom: 0;
+    }
 }
 
  @media(max-width:650px){
@@ -528,6 +531,10 @@ line-height: 32px;
 .input-search{
     max-width: 500px;
    ;
+}
+.section__restourants{
+    padding-top: 0;
+    padding-bottom: 0;
 }
         .cards{
            flex-direction: column;
@@ -591,3 +598,11 @@ line-height: 32px;
     }
 }  
 
+@media(max-width:377px){
+    .header__buttons{
+        margin-top: 20px;
+    }
+    .block__header{
+        justify-content: center;
+    }
+}
