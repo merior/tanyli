@@ -605,4 +605,7 @@ line-height: 32px;
     .block__header{
         justify-content: center;
     }
+    .card__price{
+        display: none;
+    }
 }
